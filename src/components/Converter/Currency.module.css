@@ -1,0 +1,58 @@
+.currency {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.action {
+  display: block;
+  color: var(--text-color);
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.selected {
+  display: inline-block;
+  width: 100px;
+  padding: 5px 0;
+  text-align: center;
+  background: var(--bg-color);
+  color: var(--main-color);
+  font-size: 1.25em;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+}
+
+.list {
+  position: absolute;
+  margin-top: 5px;
+  transform: translateX(0px);
+  background: #fff;
+  width: 100%;
+  height: 170px;
+  padding: 5px;
+  border: 1px solid var(--main-color);
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.option {
+  padding: 2px;
+  color: var(--main-color);
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.option:not(:last-child) {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.code {
+  font-weight: 700;
+}

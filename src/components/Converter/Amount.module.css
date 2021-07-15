@@ -1,0 +1,30 @@
+.amount {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.action {
+  display: block;
+  color: var(--text-color);
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.input {
+  border-bottom: 2px solid var(--main-color);
+  padding: 0 10px;
+  background: var(--bg-color);
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  line-height: 40px;
+  color: var(--main-color);
+  font-size: clamp(1em, 4vw, 1.5em);
+}
+.input::placeholder {
+  color: var(--main-color);
+}
+.input:placeholder-shown {
+  font-size: 1em;
+}

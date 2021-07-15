@@ -1,0 +1,7 @@
+.date {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  font-size: clamp(1em, 4vw, 1.5em);
+  color: var(--text-color);
+}

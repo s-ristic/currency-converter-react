@@ -1,0 +1,9 @@
+.header {
+  position: relative;
+  padding: 20px 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid var(--main-color);
+}

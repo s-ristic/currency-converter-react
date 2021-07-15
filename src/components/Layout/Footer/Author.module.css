@@ -1,0 +1,15 @@
+.author {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: var(--main-color);
+  margin-right: 5px;
+}
+
+.link,
+.logo {
+  height: 100%;
+}

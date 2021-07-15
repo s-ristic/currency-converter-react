@@ -1,0 +1,7 @@
+.logo {
+  color: var(--main-color);
+  font-size: clamp(1.5em, 5vw, 2em);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 10px;
+}
